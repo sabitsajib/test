@@ -1,21 +1,19 @@
-import com.sun.source.tree.WhileLoopTree;
+// import com.sun.source.tree.WhileLoopTree;
 
-import javax.print.DocFlavor;
-
-
-public class App {
-    public static void main(String[] args){
-        greet( " sabit" , "how area you today ?");
-
-    }
-    static void greet(String name , String question ){
-        System.out.println("hello" + name + "!");
-        System.out.println(question);
-
-    }
-}
+// import javax.print.DocFlavor;
 
 
+// public class App {
+//     public static void main(String[] args){
+//         greet( " sabit" , "how area you today ?");
+
+//     }
+//     static void greet(String name , String question ){
+//         System.out.println("hello" + name + "!");
+//         System.out.println(question);
+
+//     }
+// }
 
 
 
@@ -38,20 +36,22 @@ public class App {
 
 
 
-public class App {
-    public static void main(String[] args) {
-        int[] array = {5, 10, 7, 3, 15};
 
-        int count = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
-                count++;
-            }
-        }
 
-        System.out.println("The number of even elements in the array is: " + count);
-    }
-}
+// public class App {
+//     public static void main(String[] args) {
+//         int[] array = {5, 10, 7, 3, 15};
+
+//         int count = 0;
+//         for (int i = 0; i < array.length; i++) {
+//             if (array[i] % 2 == 0) {
+//                 count++;
+//             }
+//         }
+
+//         System.out.println("The number of even elements in the array is: " + count);
+//     }
+// }
 
 
 
