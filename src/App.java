@@ -38,20 +38,20 @@ public class App {
 
 
 
-//7.public class App {
-//    public static void main(String[] args) {
-//        int[] array = {5, 10, 7, 3, 15};
-//
-//        int count = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            if (array[i] % 2 == 0) {
-//                count++;
-//            }
-//        }
-//
-//        System.out.println("The number of even elements in the array is: " + count);
-//    }
-//}
+public class App {
+    public static void main(String[] args) {
+        int[] array = {5, 10, 7, 3, 15};
+
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                count++;
+            }
+        }
+
+        System.out.println("The number of even elements in the array is: " + count);
+    }
+}
 
 
 
